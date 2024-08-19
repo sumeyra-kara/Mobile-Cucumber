@@ -57,7 +57,7 @@ public class Initialize {
         // Capabilities for App
         //caps for App
         capabilities.setCapability("appPackage", "com.getir.casestudy.dev");
-        capabilities.setCapability("appActivity", "com.getir.casestudy.modules.main.ui.MainActivity");
+        capabilities.setCapability("appActivity", "com.getir.casestudy.modules.splash.ui.SplashActivity");
 
         try {
             driver = new AppiumDriver<>(service.getUrl(), capabilities);
