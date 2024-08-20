@@ -8,13 +8,11 @@ import java.util.List;
 
 public class MainPage extends BasePage{
 
-    @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Yiyecek\")")
+    @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Yiyecek\")") // appiumdan gelen locatorlarda bu sekilde kullanilabilir
     public MobileElement foods;
-
 
     @FindBy(id = "com.getir.casestudy.dev:id/ga_toolbar_getir10GABasketButton")
     public MobileElement basketBtn;
-
 
     @FindBy(xpath = "//*[@resource-id='com.getir.casestudy.dev:id/tvTitle']")
     public List<MobileElement> menuList;

@@ -8,7 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 
 
 public class BasePage {
-
     AppiumDriver<MobileElement> driver;
 
     public BasePage() {
